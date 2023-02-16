@@ -2,9 +2,14 @@ fun main(){
     condition("RITA")
     greetings("rita",21)
     long("rita")
-val school="Akirachix"
-    println("${school[0]}${school[2]}${school[3]}")
+    indexing()
 }
+fun indexing() {
+        var school = "akirachix"
+        println("${school[0]}${school[2]}${school[3]}")
+    }
+
+
 fun greetings(name:String,age:Int): String {
     val statement= "Hi my name is $name I am $age years old"
     return statement
